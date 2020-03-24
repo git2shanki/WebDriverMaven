@@ -30,6 +30,8 @@ public class LoginTest {
 		
 		driver.get("https://www.facebook.com");
 		driver.findElement(By.id("email")).sendKeys("reach2shankar@gmail.com");
+		driver.findElement(By.id("Passwd")).sendKeys("shankar");
+		
 	    
 		
 	}
