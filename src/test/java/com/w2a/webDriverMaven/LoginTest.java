@@ -15,7 +15,7 @@ public class LoginTest {
 	@BeforeSuite
 	public void setUp(){
 		System.setProperty("webdriver.chrome.driver",
-				  "E:\\01MyTrainings\\Selenium\\chromedriver_win32\\chromedriver.exe");
+				  "C:\\My Data\\Self Development\\EClipse SetUp Files\\Selenium\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
